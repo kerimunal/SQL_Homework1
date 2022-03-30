@@ -22,5 +22,6 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
     where first_name = 'Mary'
  
 5-) Film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
+
 *** select * from film 
     where length <=50 and not(rental_rate=2.99 or rental_rate=4.99)  
